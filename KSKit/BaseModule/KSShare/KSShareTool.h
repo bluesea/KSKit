@@ -14,5 +14,6 @@
 
 + (UMSocialPlatformType)getUMSocialPlatformKSPlatformType:(KSSocialPlatformType)ksPlatformType;
 
++ (KSSocialPlatformType)getPlatformType:(NSString *)platformType;
 
 @end

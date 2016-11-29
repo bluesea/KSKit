@@ -16,7 +16,7 @@
     NSLog(@"%@  Timeline", NSStringFromSelector(_cmd));
     //友盟分享
     KSShareConfigManager *KSShareConfig=[KSShareConfigManager sharedInstance];
-    KSShareConfig.shareAppKey=@"57e3f1cbe0f55a42080011ec";
+    KSShareConfig.shareAppKey=@"512a1f5d527015226c00005d";
     KSShareConfig.shareLogEnabled=NO;
     //设置平台
     [KSShareConfig setPlaform:KSSocialPlatConfigType_Tencent appKey:@"100424468" appSecret:@"c7394704798a158208a74ab60104f0ba" redirectURL:@"http://www.umeng.com/social"];

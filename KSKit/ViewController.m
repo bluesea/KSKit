@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-#import "KSShareMenuView.h"
+#import "KSShare.h"
+
 @interface ViewController ()
 
 @end
@@ -32,17 +33,19 @@
 
 - (void)testShare
 {
-    NSArray *contentArray = @[@{@"name":@"新浪微博",@"icon":@"sns_icon_3"},
-                              @{@"name":@"QQ空间 ",@"icon":@"sns_icon_5"},
-                              @{@"name":@"QQ",@"icon":@"sns_icon_4"},
-                              @{@"name":@"微信",@"icon":@"sns_icon_7"},
-                              @{@"name":@"朋友圈",@"icon":@"sns_icon_8"},
-                              @{@"name":@"微信收藏",@"icon":@"sns_icon_9"}];
+    NSArray *contentArray = @[@{@"name":@"新浪微博",@"icon":@"sns_icon_3",@"platformType":@"sina"},
+                              @{@"name":@"QQ空间 ",@"icon":@"sns_icon_5",@"platformType":@"qzone"},
+                              @{@"name":@"QQ",@"icon":@"sns_icon_4",@"platformType":@"qq"},
+                              @{@"name":@"微信",@"icon":@"sns_icon_7",@"platformType":@"wechatsession"},
+                              @{@"name":@"朋友圈",@"icon":@"sns_icon_8",@"platformType":@"wechattimeline"}];
     KSShareMenuView *shareView = [[KSShareMenuView alloc] init];
     shareView.rowNumberItem=3;
     shareView.cancelButtonText=@"取消分享";
-    [shareView addShareItems:self.view shareItems:contentArray selectShareItem:^(NSInteger tag, NSString *title) {
-        NSLog(@"%ld --- %@", tag, title);
+    [shareView addShareItems:self.view shareItems:contentArray selectShareItem:^(NSInteger tag, NSString *title, NSString *platformType) {
+        NSLog(@"%ld --- %@,type--- %@", tag, title,platformType);
+        [KSShareHelper shareTextDataWithPlatform:[KSShareTool getPlatformType:platformType] withTextData:@"test kit" withCompletion:^(id result, NSError *error) {
+
+        }];
     }];
 }
 @end

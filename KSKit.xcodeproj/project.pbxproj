@@ -390,8 +390,8 @@
 					};
 					160EB54E1DED243B0073865E = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 27445UG82M;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = NB97FJE3KH;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -712,7 +712,7 @@
 					"-framework",
 					"\"UMSocialNetwork\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kingsum.KSKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kingsum.maintenance.ower;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -787,7 +787,7 @@
 					"-framework",
 					"\"UMSocialNetwork\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kingsum.KSKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kingsum.maintenance.ower;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -795,14 +795,16 @@
 		160EB5591DED243B0073865E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = 27445UG82M;
+				DEVELOPMENT_TEAM = NB97FJE3KH;
 				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Pods/GTSDK";
 				INFOPLIST_FILE = KSKitNotificationService/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/Pods/GTSDK";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kingsum.KSKit.KSKitNotificationService;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kingsum.maintenance.ower.notificationService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9fb112a8-8e6e-47dc-8fad-d267965c6f96";
+				PROVISIONING_PROFILE_SPECIFIER = notificationService;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -810,14 +812,16 @@
 		160EB55A1DED243B0073865E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = 27445UG82M;
+				DEVELOPMENT_TEAM = NB97FJE3KH;
 				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Pods/GTSDK";
 				INFOPLIST_FILE = KSKitNotificationService/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/Pods/GTSDK";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kingsum.KSKit.KSKitNotificationService;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kingsum.maintenance.ower.notificationService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9fb112a8-8e6e-47dc-8fad-d267965c6f96";
+				PROVISIONING_PROFILE_SPECIFIER = notificationService;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;

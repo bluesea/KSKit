@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-typedef void (^selectItemBlock)(NSInteger tag, NSString *title);
+typedef void (^selectItemBlock)(NSInteger tag, NSString *title, NSString *platformType);
 
 
 @interface KSShareMenuView : UIView

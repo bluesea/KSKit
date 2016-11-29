@@ -20,7 +20,7 @@
 #define kImageViewWH 40
 #define RGB(r, g, b)   [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1.0]
 @interface KSShareItemButton : UIButton
-
+@property (nonatomic, copy) NSString *platformType;
 @end
 @implementation KSShareItemButton
 - (id)initWithFrame:(CGRect)frame
@@ -56,7 +56,7 @@
 @property (nonatomic, strong) NSArray *sharItems;
 @property (nonatomic, strong) UIView *backgroundView;
 @property (nonatomic, strong) UIButton *canleBtn;
-@property (nonatomic, copy) void(^btnBlock)(NSInteger tag, NSString *title);
+@property (nonatomic, copy) void(^btnBlock)(NSInteger tag, NSString *title, NSString *platformType);
 @end
 
 @implementation KSShareMenuView
@@ -72,6 +72,7 @@
     [shareItems enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         NSString *name = obj[@"name"];
         NSString *icon = obj[@"icon"];
+        NSString *platformType = obj[@"platformType"];
         KSShareItemButton *btn = [KSShareItemButton buttonWithType:UIButtonTypeCustom];
         btn.titleLabel.font =self.shareItemButtonFont?:[UIFont systemFontOfSize:10];
         [btn setTitleColor:self.shareItemButtonColor?:RGB(40, 40, 40) forState:UIControlStateNormal];
@@ -79,7 +80,7 @@
         [btn setTitle:name forState:UIControlStateNormal];
         [btn setImage:[UIImage imageNamed:icon] forState:UIControlStateNormal];
         [btn addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
-        
+        btn.platformType = platformType;
         CGFloat marginX = (self.frame.size.width - curRowNumberItem * kBtnW) / (curRowNumberItem + 1);
         NSInteger col = idx % curRowNumberItem;
         NSInteger row = idx / curRowNumberItem;
@@ -108,8 +109,8 @@
     [self.canleBtn addTarget:self action:@selector(cancleButtonAction) forControlEvents:UIControlEventTouchUpInside];
     [self addSubview:self.canleBtn];
     
-    self.btnBlock = ^(NSInteger tag, NSString *title){
-        if(selectShareItem) selectShareItem(tag, title);
+    self.btnBlock = ^(NSInteger tag, NSString *title, NSString *platformType){
+        if(selectShareItem) selectShareItem(tag, title, platformType);
     };
     
     //增加
@@ -156,6 +157,7 @@
 }
 
 - (void)btnClick:(UIButton *)sender{
-    if(_btnBlock) _btnBlock(sender.tag, sender.titleLabel.text);
+    KSShareItemButton *btn = (KSShareItemButton *)sender;
+    if(_btnBlock) _btnBlock(sender.tag, sender.titleLabel.text,btn.platformType);
 }
 @end
