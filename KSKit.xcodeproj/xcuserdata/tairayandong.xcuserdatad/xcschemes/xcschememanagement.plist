@@ -9,10 +9,20 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>KSKitNotificationService.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>13</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>160EB4FF1DEC099F0073865E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>160EB54E1DED243B0073865E</key>
 		<dict>
 			<key>primary</key>
 			<true/>

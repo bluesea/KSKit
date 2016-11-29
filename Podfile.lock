@@ -1,0 +1,95 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - Aspects (1.4.1)
+  - BuglyHotfix (1.0.0)
+  - CYLTabBarController (1.6.7)
+  - FLEX (2.3.0)
+  - GTSDK (1.5.3)
+  - IQKeyboardManager (4.0.7)
+  - MJExtension (3.0.13)
+  - MJRefresh (3.1.12)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - UMengUShare/Core (6.0.3):
+    - UMengUShare/Network
+  - UMengUShare/Network (6.0.3)
+  - UMengUShare/Social/QQ (6.0.3):
+    - UMengUShare/Core
+  - UMengUShare/Social/Sina (6.0.3):
+    - UMengUShare/Core
+  - UMengUShare/Social/TencentWeibo (6.0.3):
+    - UMengUShare/Core
+  - UMengUShare/Social/WeChat (6.0.3):
+    - UMengUShare/Core
+  - UMengUShare/UI (6.0.3):
+    - UMengUShare/Core
+  - XAspect (1.0.5):
+    - XAspect/Core (= 1.0.5)
+    - XAspect/Macros (= 1.0.5)
+  - XAspect/Core (1.0.5):
+    - XAspect/Macros
+  - XAspect/Macros (1.0.5)
+  - YTKNetwork (2.0.3):
+    - AFNetworking (~> 3.0)
+
+DEPENDENCIES:
+  - Aspects
+  - BuglyHotfix
+  - CYLTabBarController
+  - FLEX (from `https://github.com/Flipboard/FLEX.git`, commit `c766e5d`)
+  - GTSDK
+  - IQKeyboardManager (~> 4.0.4)
+  - MJExtension (~> 3.0.10)
+  - MJRefresh (~> 3.1.6)
+  - SDWebImage
+  - UMengUShare/Social/QQ
+  - UMengUShare/Social/Sina
+  - UMengUShare/Social/TencentWeibo
+  - UMengUShare/Social/WeChat
+  - UMengUShare/UI
+  - XAspect
+  - YTKNetwork
+
+EXTERNAL SOURCES:
+  FLEX:
+    :commit: c766e5d
+    :git: https://github.com/Flipboard/FLEX.git
+
+CHECKOUT OPTIONS:
+  FLEX:
+    :commit: c766e5d
+    :git: https://github.com/Flipboard/FLEX.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  BuglyHotfix: 2ae6f1c8ea9a7b8ef985a6e31c2b38388eeac25c
+  CYLTabBarController: cc8b19463bd3a3d4b886a55c0a9440fdceefd3d6
+  FLEX: ba80ea13d2c784e85e616137fd4eff164781e364
+  GTSDK: 1b55fc5b0f29c7ea9061946f07aeee49ef70c90e
+  IQKeyboardManager: 69002bb4fea60596b710e57d426abc00e5063630
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  UMengUShare: f231fc086d789d4e560a5090dcc13a2db15c686d
+  XAspect: db50bf487f92dbb8557a7a5365556966c8493af8
+  YTKNetwork: c4b0c29c9d639dc050d475de69ee626d53eac598
+
+PODFILE CHECKSUM: 26d8de32dbad2c1f0677d45b12e58990ba1ddb6c
+
+COCOAPODS: 1.1.1

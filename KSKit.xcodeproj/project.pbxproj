@@ -13,7 +13,59 @@
 		160EB50E1DEC099F0073865E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 160EB50C1DEC099F0073865E /* Main.storyboard */; };
 		160EB5101DEC099F0073865E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 160EB50F1DEC099F0073865E /* Assets.xcassets */; };
 		160EB5131DEC099F0073865E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 160EB5111DEC099F0073865E /* LaunchScreen.storyboard */; };
+		160EB5291DEC28A00073865E /* KSAppDelegateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 160EB5281DEC28A00073865E /* KSAppDelegateManager.m */; };
+		160EB52B1DEC29D90073865E /* ModulesRegister.plist in Resources */ = {isa = PBXBuildFile; fileRef = 160EB52A1DEC29D90073865E /* ModulesRegister.plist */; };
+		160EB52D1DEC2A4C0073865E /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 160EB52C1DEC2A4C0073865E /* README.md */; };
+		160EB5301DED0DFD0073865E /* KSGTModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 160EB52F1DED0DFD0073865E /* KSGTModule.m */; };
+		160EB5331DED0E840073865E /* KSShareModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 160EB5321DED0E840073865E /* KSShareModule.m */; };
+		160EB5361DED0EBD0073865E /* KSUmengAnalyticsModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 160EB5351DED0EBD0073865E /* KSUmengAnalyticsModule.m */; };
+		160EB53A1DED10CF0073865E /* KSBuglyAnalyticsModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 160EB5391DED10CF0073865E /* KSBuglyAnalyticsModule.m */; };
+		160EB53C1DED11AC0073865E /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 160EB53B1DED11AC0073865E /* main.js */; };
+		160EB53F1DED16490073865E /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 160EB53E1DED16490073865E /* README.md */; };
+		160EB5411DED16730073865E /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 160EB5401DED16730073865E /* README.md */; };
+		160EB5431DED167D0073865E /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 160EB5421DED167D0073865E /* README.md */; };
+		160EB5451DED16880073865E /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 160EB5441DED16880073865E /* README.md */; };
+		160EB5471DED16940073865E /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 160EB5461DED16940073865E /* README.md */; };
+		160EB54A1DED197E0073865E /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 160EB5491DED197E0073865E /* README.md */; };
+		160EB5531DED243B0073865E /* NotificationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 160EB5521DED243B0073865E /* NotificationService.m */; };
+		160EB5571DED243B0073865E /* KSKitNotificationService.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 160EB54F1DED243B0073865E /* KSKitNotificationService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		160EB55E1DED2DF40073865E /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 160EB55D1DED2DF40073865E /* libz.tbd */; };
+		160EB5601DED2DFC0073865E /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 160EB55F1DED2DFC0073865E /* libsqlite3.tbd */; };
+		160EB5621DED2E120073865E /* libGtExtensionSdk-1.0.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 160EB5611DED2E120073865E /* libGtExtensionSdk-1.0.0.a */; };
+		160EB5651DED4E150073865E /* KSShareConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 160EB5641DED4E150073865E /* KSShareConfigManager.m */; };
+		160EB5681DED64D80073865E /* KSShareHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 160EB5671DED64D80073865E /* KSShareHelper.m */; };
+		160EB56B1DED65AA0073865E /* KSShareTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 160EB56A1DED65AA0073865E /* KSShareTool.m */; };
+		160EB56E1DED67670073865E /* KSSharePlatformHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 160EB56D1DED67670073865E /* KSSharePlatformHelper.m */; };
+		160EB5711DED68EF0073865E /* KSShareMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 160EB5701DED68EF0073865E /* KSShareMenuView.m */; };
+		160EB5751DED6A3F0073865E /* KSWebShareHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 160EB5741DED6A3F0073865E /* KSWebShareHelper.m */; };
+		160EB5771DED6E7F0073865E /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = 160EB5761DED6E7E0073865E /* test.html */; };
+		160EB57A1DED72970073865E /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 160EB5791DED72970073865E /* TestViewController.m */; };
+		F3EA7BCE4BB851E99E9C575A /* libPods-KSKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A53196C16AFD3927C7B711B0 /* libPods-KSKit.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		160EB5551DED243B0073865E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 160EB4F81DEC099F0073865E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 160EB54E1DED243B0073865E;
+			remoteInfo = KSKitNotificationService;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		160EB55B1DED243B0073865E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				160EB5571DED243B0073865E /* KSKitNotificationService.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		160EB5001DEC099F0073865E /* KSKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,6 +78,53 @@
 		160EB50F1DEC099F0073865E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		160EB5121DEC099F0073865E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		160EB5141DEC099F0073865E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		160EB51E1DEC1DD80073865E /* KSKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSKit.h; sourceTree = "<group>"; };
+		160EB5271DEC28A00073865E /* KSAppDelegateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSAppDelegateManager.h; sourceTree = "<group>"; };
+		160EB5281DEC28A00073865E /* KSAppDelegateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSAppDelegateManager.m; sourceTree = "<group>"; };
+		160EB52A1DEC29D90073865E /* ModulesRegister.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ModulesRegister.plist; sourceTree = "<group>"; };
+		160EB52C1DEC2A4C0073865E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		160EB52E1DED0DFD0073865E /* KSGTModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSGTModule.h; sourceTree = "<group>"; };
+		160EB52F1DED0DFD0073865E /* KSGTModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSGTModule.m; sourceTree = "<group>"; };
+		160EB5311DED0E840073865E /* KSShareModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSShareModule.h; sourceTree = "<group>"; };
+		160EB5321DED0E840073865E /* KSShareModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSShareModule.m; sourceTree = "<group>"; };
+		160EB5341DED0EBD0073865E /* KSUmengAnalyticsModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSUmengAnalyticsModule.h; sourceTree = "<group>"; };
+		160EB5351DED0EBD0073865E /* KSUmengAnalyticsModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSUmengAnalyticsModule.m; sourceTree = "<group>"; };
+		160EB5381DED10CF0073865E /* KSBuglyAnalyticsModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSBuglyAnalyticsModule.h; sourceTree = "<group>"; };
+		160EB5391DED10CF0073865E /* KSBuglyAnalyticsModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSBuglyAnalyticsModule.m; sourceTree = "<group>"; };
+		160EB53B1DED11AC0073865E /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
+		160EB53E1DED16490073865E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		160EB5401DED16730073865E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		160EB5421DED167D0073865E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		160EB5441DED16880073865E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		160EB5461DED16940073865E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		160EB5491DED197E0073865E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		160EB54F1DED243B0073865E /* KSKitNotificationService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = KSKitNotificationService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		160EB5511DED243B0073865E /* NotificationService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationService.h; sourceTree = "<group>"; };
+		160EB5521DED243B0073865E /* NotificationService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationService.m; sourceTree = "<group>"; };
+		160EB5541DED243B0073865E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		160EB55C1DED24D30073865E /* KSKit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KSKit.entitlements; sourceTree = "<group>"; };
+		160EB55D1DED2DF40073865E /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		160EB55F1DED2DFC0073865E /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		160EB5611DED2E120073865E /* libGtExtensionSdk-1.0.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libGtExtensionSdk-1.0.0.a"; path = "Pods/GTSDK/libGtExtensionSdk-1.0.0.a"; sourceTree = "<group>"; };
+		160EB5631DED4E150073865E /* KSShareConfigManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSShareConfigManager.h; sourceTree = "<group>"; };
+		160EB5641DED4E150073865E /* KSShareConfigManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSShareConfigManager.m; sourceTree = "<group>"; };
+		160EB5661DED64D80073865E /* KSShareHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSShareHelper.h; sourceTree = "<group>"; };
+		160EB5671DED64D80073865E /* KSShareHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSShareHelper.m; sourceTree = "<group>"; };
+		160EB5691DED65AA0073865E /* KSShareTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSShareTool.h; sourceTree = "<group>"; };
+		160EB56A1DED65AA0073865E /* KSShareTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSShareTool.m; sourceTree = "<group>"; };
+		160EB56C1DED67670073865E /* KSSharePlatformHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSSharePlatformHelper.h; sourceTree = "<group>"; };
+		160EB56D1DED67670073865E /* KSSharePlatformHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSSharePlatformHelper.m; sourceTree = "<group>"; };
+		160EB56F1DED68EF0073865E /* KSShareMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSShareMenuView.h; sourceTree = "<group>"; };
+		160EB5701DED68EF0073865E /* KSShareMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSShareMenuView.m; sourceTree = "<group>"; };
+		160EB5721DED69A60073865E /* KSShare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSShare.h; sourceTree = "<group>"; };
+		160EB5731DED6A3F0073865E /* KSWebShareHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSWebShareHelper.h; sourceTree = "<group>"; };
+		160EB5741DED6A3F0073865E /* KSWebShareHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSWebShareHelper.m; sourceTree = "<group>"; };
+		160EB5761DED6E7E0073865E /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
+		160EB5781DED72970073865E /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		160EB5791DED72970073865E /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		8A84C57DA751D2B8FAA84348 /* Pods-KSKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KSKit/Pods-KSKit.debug.xcconfig"; sourceTree = "<group>"; };
+		8C08A9DEB3DC5115E01D8CF0 /* Pods-KSKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-KSKit/Pods-KSKit.release.xcconfig"; sourceTree = "<group>"; };
+		A53196C16AFD3927C7B711B0 /* libPods-KSKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KSKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +132,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3EA7BCE4BB851E99E9C575A /* libPods-KSKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		160EB54C1DED243B0073865E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				160EB5621DED2E120073865E /* libGtExtensionSdk-1.0.0.a in Frameworks */,
+				160EB5601DED2DFC0073865E /* libsqlite3.tbd in Frameworks */,
+				160EB55E1DED2DF40073865E /* libz.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,7 +153,10 @@
 			isa = PBXGroup;
 			children = (
 				160EB5021DEC099F0073865E /* KSKit */,
+				160EB5501DED243B0073865E /* KSKitNotificationService */,
 				160EB5011DEC099F0073865E /* Products */,
+				B9AEC988F76E605D33D3F27B /* Pods */,
+				3D503DDCFC79ABEEAE2E4166 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				160EB5001DEC099F0073865E /* KSKit.app */,
+				160EB54F1DED243B0073865E /* KSKitNotificationService.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,10 +172,16 @@
 		160EB5021DEC099F0073865E /* KSKit */ = {
 			isa = PBXGroup;
 			children = (
+				160EB55C1DED24D30073865E /* KSKit.entitlements */,
+				160EB51A1DEC1D0B0073865E /* BaseModule */,
 				160EB5061DEC099F0073865E /* AppDelegate.h */,
 				160EB5071DEC099F0073865E /* AppDelegate.m */,
+				160EB53B1DED11AC0073865E /* main.js */,
+				160EB52A1DEC29D90073865E /* ModulesRegister.plist */,
 				160EB5091DEC099F0073865E /* ViewController.h */,
 				160EB50A1DEC099F0073865E /* ViewController.m */,
+				160EB5781DED72970073865E /* TestViewController.h */,
+				160EB5791DED72970073865E /* TestViewController.m */,
 				160EB50C1DEC099F0073865E /* Main.storyboard */,
 				160EB50F1DEC099F0073865E /* Assets.xcassets */,
 				160EB5111DEC099F0073865E /* LaunchScreen.storyboard */,
@@ -79,6 +199,131 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		160EB51A1DEC1D0B0073865E /* BaseModule */ = {
+			isa = PBXGroup;
+			children = (
+				160EB5481DED196B0073865E /* PayModule */,
+				160EB53D1DED163A0073865E /* RongCloud */,
+				160EB5261DEC288F0073865E /* KSAppDelegateManager */,
+				160EB51B1DEC1D0B0073865E /* KSGT */,
+				160EB51C1DEC1D0B0073865E /* KSShare */,
+				160EB51D1DEC1D0B0073865E /* KSUmengAnalytics */,
+				160EB5371DED10AE0073865E /* KSBuglyAnalytics */,
+				160EB51E1DEC1DD80073865E /* KSKit.h */,
+			);
+			path = BaseModule;
+			sourceTree = "<group>";
+		};
+		160EB51B1DEC1D0B0073865E /* KSGT */ = {
+			isa = PBXGroup;
+			children = (
+				160EB52E1DED0DFD0073865E /* KSGTModule.h */,
+				160EB52F1DED0DFD0073865E /* KSGTModule.m */,
+				160EB5401DED16730073865E /* README.md */,
+			);
+			path = KSGT;
+			sourceTree = "<group>";
+		};
+		160EB51C1DEC1D0B0073865E /* KSShare */ = {
+			isa = PBXGroup;
+			children = (
+				160EB5761DED6E7E0073865E /* test.html */,
+				160EB5721DED69A60073865E /* KSShare.h */,
+				160EB5311DED0E840073865E /* KSShareModule.h */,
+				160EB5321DED0E840073865E /* KSShareModule.m */,
+				160EB5631DED4E150073865E /* KSShareConfigManager.h */,
+				160EB5641DED4E150073865E /* KSShareConfigManager.m */,
+				160EB5661DED64D80073865E /* KSShareHelper.h */,
+				160EB5671DED64D80073865E /* KSShareHelper.m */,
+				160EB5691DED65AA0073865E /* KSShareTool.h */,
+				160EB56A1DED65AA0073865E /* KSShareTool.m */,
+				160EB56C1DED67670073865E /* KSSharePlatformHelper.h */,
+				160EB56D1DED67670073865E /* KSSharePlatformHelper.m */,
+				160EB56F1DED68EF0073865E /* KSShareMenuView.h */,
+				160EB5701DED68EF0073865E /* KSShareMenuView.m */,
+				160EB5731DED6A3F0073865E /* KSWebShareHelper.h */,
+				160EB5741DED6A3F0073865E /* KSWebShareHelper.m */,
+				160EB5421DED167D0073865E /* README.md */,
+			);
+			path = KSShare;
+			sourceTree = "<group>";
+		};
+		160EB51D1DEC1D0B0073865E /* KSUmengAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				160EB5341DED0EBD0073865E /* KSUmengAnalyticsModule.h */,
+				160EB5351DED0EBD0073865E /* KSUmengAnalyticsModule.m */,
+				160EB5441DED16880073865E /* README.md */,
+			);
+			path = KSUmengAnalytics;
+			sourceTree = "<group>";
+		};
+		160EB5261DEC288F0073865E /* KSAppDelegateManager */ = {
+			isa = PBXGroup;
+			children = (
+				160EB5271DEC28A00073865E /* KSAppDelegateManager.h */,
+				160EB5281DEC28A00073865E /* KSAppDelegateManager.m */,
+				160EB52C1DEC2A4C0073865E /* README.md */,
+			);
+			path = KSAppDelegateManager;
+			sourceTree = "<group>";
+		};
+		160EB5371DED10AE0073865E /* KSBuglyAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				160EB5381DED10CF0073865E /* KSBuglyAnalyticsModule.h */,
+				160EB5391DED10CF0073865E /* KSBuglyAnalyticsModule.m */,
+				160EB5461DED16940073865E /* README.md */,
+			);
+			path = KSBuglyAnalytics;
+			sourceTree = "<group>";
+		};
+		160EB53D1DED163A0073865E /* RongCloud */ = {
+			isa = PBXGroup;
+			children = (
+				160EB53E1DED16490073865E /* README.md */,
+			);
+			path = RongCloud;
+			sourceTree = "<group>";
+		};
+		160EB5481DED196B0073865E /* PayModule */ = {
+			isa = PBXGroup;
+			children = (
+				160EB5491DED197E0073865E /* README.md */,
+			);
+			path = PayModule;
+			sourceTree = "<group>";
+		};
+		160EB5501DED243B0073865E /* KSKitNotificationService */ = {
+			isa = PBXGroup;
+			children = (
+				160EB5511DED243B0073865E /* NotificationService.h */,
+				160EB5521DED243B0073865E /* NotificationService.m */,
+				160EB5541DED243B0073865E /* Info.plist */,
+			);
+			path = KSKitNotificationService;
+			sourceTree = "<group>";
+		};
+		3D503DDCFC79ABEEAE2E4166 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				160EB5611DED2E120073865E /* libGtExtensionSdk-1.0.0.a */,
+				160EB55F1DED2DFC0073865E /* libsqlite3.tbd */,
+				160EB55D1DED2DF40073865E /* libz.tbd */,
+				A53196C16AFD3927C7B711B0 /* libPods-KSKit.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9AEC988F76E605D33D3F27B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A84C57DA751D2B8FAA84348 /* Pods-KSKit.debug.xcconfig */,
+				8C08A9DEB3DC5115E01D8CF0 /* Pods-KSKit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,18 +331,40 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 160EB5171DEC099F0073865E /* Build configuration list for PBXNativeTarget "KSKit" */;
 			buildPhases = (
+				B33BF11813C45CE6B0054CF8 /* [CP] Check Pods Manifest.lock */,
 				160EB4FC1DEC099F0073865E /* Sources */,
 				160EB4FD1DEC099F0073865E /* Frameworks */,
 				160EB4FE1DEC099F0073865E /* Resources */,
+				91503F2731012FAE0969662A /* [CP] Embed Pods Frameworks */,
+				03E4288118E642D5FCC9725A /* [CP] Copy Pods Resources */,
+				160EB55B1DED243B0073865E /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				160EB5561DED243B0073865E /* PBXTargetDependency */,
 			);
 			name = KSKit;
 			productName = KSKit;
 			productReference = 160EB5001DEC099F0073865E /* KSKit.app */;
 			productType = "com.apple.product-type.application";
+		};
+		160EB54E1DED243B0073865E /* KSKitNotificationService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 160EB5581DED243B0073865E /* Build configuration list for PBXNativeTarget "KSKitNotificationService" */;
+			buildPhases = (
+				160EB54B1DED243B0073865E /* Sources */,
+				160EB54C1DED243B0073865E /* Frameworks */,
+				160EB54D1DED243B0073865E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KSKitNotificationService;
+			productName = KSKitNotificationService;
+			productReference = 160EB54F1DED243B0073865E /* KSKitNotificationService.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -109,6 +376,19 @@
 				ORGANIZATIONNAME = Kingsum;
 				TargetAttributes = {
 					160EB4FF1DEC099F0073865E = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = NB97FJE3KH;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					160EB54E1DED243B0073865E = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 27445UG82M;
 						ProvisioningStyle = Automatic;
@@ -129,6 +409,7 @@
 			projectRoot = "";
 			targets = (
 				160EB4FF1DEC099F0073865E /* KSKit */,
+				160EB54E1DED243B0073865E /* KSKitNotificationService */,
 			);
 		};
 /* End PBXProject section */
@@ -139,25 +420,118 @@
 			buildActionMask = 2147483647;
 			files = (
 				160EB5131DEC099F0073865E /* LaunchScreen.storyboard in Resources */,
+				160EB52B1DEC29D90073865E /* ModulesRegister.plist in Resources */,
+				160EB5771DED6E7F0073865E /* test.html in Resources */,
 				160EB5101DEC099F0073865E /* Assets.xcassets in Resources */,
 				160EB50E1DEC099F0073865E /* Main.storyboard in Resources */,
+				160EB53C1DED11AC0073865E /* main.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		160EB54D1DED243B0073865E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03E4288118E642D5FCC9725A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KSKit/Pods-KSKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91503F2731012FAE0969662A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KSKit/Pods-KSKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B33BF11813C45CE6B0054CF8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		160EB4FC1DEC099F0073865E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				160EB53A1DED10CF0073865E /* KSBuglyAnalyticsModule.m in Sources */,
+				160EB5751DED6A3F0073865E /* KSWebShareHelper.m in Sources */,
 				160EB50B1DEC099F0073865E /* ViewController.m in Sources */,
+				160EB53F1DED16490073865E /* README.md in Sources */,
+				160EB5651DED4E150073865E /* KSShareConfigManager.m in Sources */,
+				160EB5681DED64D80073865E /* KSShareHelper.m in Sources */,
 				160EB5081DEC099F0073865E /* AppDelegate.m in Sources */,
+				160EB56E1DED67670073865E /* KSSharePlatformHelper.m in Sources */,
+				160EB5451DED16880073865E /* README.md in Sources */,
+				160EB5301DED0DFD0073865E /* KSGTModule.m in Sources */,
+				160EB5361DED0EBD0073865E /* KSUmengAnalyticsModule.m in Sources */,
+				160EB56B1DED65AA0073865E /* KSShareTool.m in Sources */,
+				160EB5431DED167D0073865E /* README.md in Sources */,
+				160EB5331DED0E840073865E /* KSShareModule.m in Sources */,
+				160EB5711DED68EF0073865E /* KSShareMenuView.m in Sources */,
+				160EB52D1DEC2A4C0073865E /* README.md in Sources */,
+				160EB5471DED16940073865E /* README.md in Sources */,
+				160EB5291DEC28A00073865E /* KSAppDelegateManager.m in Sources */,
+				160EB57A1DED72970073865E /* TestViewController.m in Sources */,
+				160EB54A1DED197E0073865E /* README.md in Sources */,
+				160EB5411DED16730073865E /* README.md in Sources */,
 				160EB5051DEC099F0073865E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		160EB54B1DED243B0073865E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				160EB5531DED243B0073865E /* NotificationService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		160EB5561DED243B0073865E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 160EB54E1DED243B0073865E /* KSKitNotificationService */;
+			targetProxy = 160EB5551DED243B0073865E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		160EB50C1DEC099F0073865E /* Main.storyboard */ = {
@@ -219,7 +593,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -260,7 +634,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -269,11 +643,75 @@
 		};
 		160EB5181DEC099F0073865E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A84C57DA751D2B8FAA84348 /* Pods-KSKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 27445UG82M;
+				CODE_SIGN_ENTITLEMENTS = KSKit/KSKit.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = NB97FJE3KH;
 				INFOPLIST_FILE = KSKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-l\"Aspects\"",
+					"-l\"CYLTabBarController\"",
+					"-l\"FLEX\"",
+					"-l\"GeTuiSdk-1.5.3\"",
+					"-l\"IQKeyboardManager\"",
+					"-l\"MJExtension\"",
+					"-l\"MJRefresh\"",
+					"-l\"SDWebImage\"",
+					"-l\"SocialQQ\"",
+					"-l\"SocialSina\"",
+					"-l\"SocialTencentWeibo\"",
+					"-l\"SocialWeChat\"",
+					"-l\"UMengUShare\"",
+					"-l\"WeChatSDK\"",
+					"-l\"WeiboSDK\"",
+					"-l\"XAspect\"",
+					"-l\"YTKNetwork\"",
+					"-l\"c++\"",
+					"-l\"sqlite3\"",
+					"-l\"sqlite3.0\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"BuglyHotfix\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"JavaScriptCore\"",
+					"-framework",
+					"\"JavascriptCore\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"TencentOpenAPI\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"UMSocialCore\"",
+					"-framework",
+					"\"UMSocialNetwork\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kingsum.KSKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -281,13 +719,106 @@
 		};
 		160EB5191DEC099F0073865E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C08A9DEB3DC5115E01D8CF0 /* Pods-KSKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 27445UG82M;
+				CODE_SIGN_ENTITLEMENTS = KSKit/KSKit.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = NB97FJE3KH;
 				INFOPLIST_FILE = KSKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-l\"Aspects\"",
+					"-l\"CYLTabBarController\"",
+					"-l\"GeTuiSdk-1.5.3\"",
+					"-l\"IQKeyboardManager\"",
+					"-l\"MJExtension\"",
+					"-l\"MJRefresh\"",
+					"-l\"SDWebImage\"",
+					"-l\"SocialQQ\"",
+					"-l\"SocialSina\"",
+					"-l\"SocialTencentWeibo\"",
+					"-l\"SocialWeChat\"",
+					"-l\"UMengUShare\"",
+					"-l\"WeChatSDK\"",
+					"-l\"WeiboSDK\"",
+					"-l\"XAspect\"",
+					"-l\"YTKNetwork\"",
+					"-l\"c++\"",
+					"-l\"sqlite3\"",
+					"-l\"sqlite3.0\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"BuglyHotfix\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"JavaScriptCore\"",
+					"-framework",
+					"\"JavascriptCore\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"TencentOpenAPI\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"UMSocialCore\"",
+					"-framework",
+					"\"UMSocialNetwork\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kingsum.KSKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		160EB5591DED243B0073865E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 27445UG82M;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Pods/GTSDK";
+				INFOPLIST_FILE = KSKitNotificationService/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/Pods/GTSDK";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kingsum.KSKit.KSKitNotificationService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		160EB55A1DED243B0073865E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 27445UG82M;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Pods/GTSDK";
+				INFOPLIST_FILE = KSKitNotificationService/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/Pods/GTSDK";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kingsum.KSKit.KSKitNotificationService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
@@ -310,6 +841,16 @@
 				160EB5191DEC099F0073865E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		160EB5581DED243B0073865E /* Build configuration list for PBXNativeTarget "KSKitNotificationService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				160EB5591DED243B0073865E /* Debug */,
+				160EB55A1DED243B0073865E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
