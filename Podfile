@@ -10,7 +10,8 @@ target 'KSKit' do
     pod 'MJExtension', '~> 3.0.10'
     pod 'SDWebImage'
     pod 'XAspect'
-    
+    pod 'RongCloudIM/IMLib', '2.8.0'
+    pod 'RongCloudIM/IMKit', '2.8.0'
 # 友盟分享UI
 pod 'UMengUShare/UI'
 # 集成新浪微博

@@ -28,6 +28,16 @@
     
     [manager application:application didFinishLaunchingWithOptions:launchOptions];
 
+    NSString *string = nil;
+    @try {
+        NSMutableDictionary *dict = [NSMutableDictionary dictionaryWithDictionary:@{@"region":@"222",@"test":string}];
+        NSLog(@"%@",dict);
+    } @catch (NSException *exception) {
+        NSLog(@"=========%@",exception);
+    } @finally {
+        NSLog(@"执行操作");
+    }
+    
     return YES;
 }
 

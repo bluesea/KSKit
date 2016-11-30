@@ -6,5 +6,6 @@
 	<string>KSShareModule</string>
 	<string>KSUmengAnalyticsModule</string>
 	<string>KSBuglyAnalyticsModule</string>
+	<string>RongCloudModule</string>
 </array>
 </plist>

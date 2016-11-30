@@ -40,6 +40,7 @@
 		160EB5751DED6A3F0073865E /* KSWebShareHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 160EB5741DED6A3F0073865E /* KSWebShareHelper.m */; };
 		160EB5771DED6E7F0073865E /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = 160EB5761DED6E7E0073865E /* test.html */; };
 		160EB57A1DED72970073865E /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 160EB5791DED72970073865E /* TestViewController.m */; };
+		160EB57D1DEE774E0073865E /* RongCloudModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 160EB57C1DEE774E0073865E /* RongCloudModule.m */; };
 		F3EA7BCE4BB851E99E9C575A /* libPods-KSKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A53196C16AFD3927C7B711B0 /* libPods-KSKit.a */; };
 /* End PBXBuildFile section */
 
@@ -122,6 +123,8 @@
 		160EB5761DED6E7E0073865E /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
 		160EB5781DED72970073865E /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		160EB5791DED72970073865E /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		160EB57B1DEE774E0073865E /* RongCloudModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RongCloudModule.h; sourceTree = "<group>"; };
+		160EB57C1DEE774E0073865E /* RongCloudModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RongCloudModule.m; sourceTree = "<group>"; };
 		8A84C57DA751D2B8FAA84348 /* Pods-KSKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KSKit/Pods-KSKit.debug.xcconfig"; sourceTree = "<group>"; };
 		8C08A9DEB3DC5115E01D8CF0 /* Pods-KSKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-KSKit/Pods-KSKit.release.xcconfig"; sourceTree = "<group>"; };
 		A53196C16AFD3927C7B711B0 /* libPods-KSKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KSKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -282,6 +285,8 @@
 			isa = PBXGroup;
 			children = (
 				160EB53E1DED16490073865E /* README.md */,
+				160EB57B1DEE774E0073865E /* RongCloudModule.h */,
+				160EB57C1DEE774E0073865E /* RongCloudModule.m */,
 			);
 			path = RongCloud;
 			sourceTree = "<group>";
@@ -500,6 +505,7 @@
 				160EB56E1DED67670073865E /* KSSharePlatformHelper.m in Sources */,
 				160EB5451DED16880073865E /* README.md in Sources */,
 				160EB5301DED0DFD0073865E /* KSGTModule.m in Sources */,
+				160EB57D1DEE774E0073865E /* RongCloudModule.m in Sources */,
 				160EB5361DED0EBD0073865E /* KSUmengAnalyticsModule.m in Sources */,
 				160EB56B1DED65AA0073865E /* KSShareTool.m in Sources */,
 				160EB5431DED167D0073865E /* README.md in Sources */,

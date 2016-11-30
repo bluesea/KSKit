@@ -29,6 +29,8 @@
         [[UMSocialManager defaultManager]
 #if DEBUG
          openLog:YES];
+#else
+        openLog:NO];
 #endif
     }
     
