@@ -39,7 +39,7 @@
                               @{@"name":@"微信",@"icon":@"sns_icon_7",@"platformType":@"wechatsession"},
                               @{@"name":@"朋友圈",@"icon":@"sns_icon_8",@"platformType":@"wechattimeline"}];
     KSShareMenuView *shareView = [[KSShareMenuView alloc] init];
-    shareView.rowNumberItem=3;
+    shareView.rowNumberItem=4;
     shareView.cancelButtonText=@"取消分享";
     [shareView addShareItems:self.view shareItems:contentArray selectShareItem:^(NSInteger tag, NSString *title, NSString *platformType) {
         NSLog(@"%ld --- %@,type--- %@", tag, title,platformType);

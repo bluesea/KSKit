@@ -120,7 +120,7 @@
     self.frame = CGRectMake(0, originY, 0, height);
     [UIView animateWithDuration:0.25 animations:^{
         CGRect sF = self.frame;
-        sF.origin.y = kScreenHeight - sF.size.height;
+        sF.origin.y = kScreenHeight - sF.size.height+64;
         self.frame = sF;
     }];
 }
