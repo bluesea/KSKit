@@ -115,7 +115,6 @@
     
     //增加
     [superView addSubview:self];
-    
     CGFloat originY = [UIScreen mainScreen].bounds.size.height;
     self.frame = CGRectMake(0, originY, 0, height);
     [UIView animateWithDuration:0.25 animations:^{
